@@ -1,13 +1,6 @@
 ---- Clear Grove Street of Peds & Cars
 Citizen.CreateThread(function()
     while (true) do
-	ClearAreaOfPeds(Config.Zones.x, Config.Zones.y, Config.Zones.z, Config.Radius, 1)
-        Citizen.Wait(0)
-    end
-end)
---[[
-Citizen.CreateThread(function()
-    while (true) do
 	ClearAreaOfPeds(103.88, -1939.43, 20.00, 250.0, 1)
         Citizen.Wait(0)
     end
@@ -41,5 +34,5 @@ Citizen.CreateThread(function()
 	ClearAreaOfVehicles(349.35, -1404.38, 32.51, 75.0, false, false, false, false, false)
         Citizen.Wait(0)
     end
-end)]]--
+end)
 
